@@ -1,2 +1,47 @@
 # ReSolve-Ai
 ReSolve is an AI-powered platform designed to make student accommodation management easier and more efficient. Students can use the platform to report problems such as broken Wi-Fi, water leaks, maintenance issues, security concerns, or damaged facilities.
+
+
+
+{
+  "users": [
+    {
+      "email": "thabo.mokoena@resolve.ac",
+      "password": "student123",
+      "name": "Thabo Mokoena",
+      "role": "student",
+      "residence": "Kingsway House",
+      "room": "B204"
+    },
+    {
+      "email": "amara.singh@resolve.ac",
+      "password": "student123",
+      "name": "Amara Singh",
+      "role": "student",
+      "residence": "Riverside Court",
+      "room": "A112"
+    },
+    {
+      "email": "liam.pretorius@resolve.ac",
+      "password": "student123",
+      "name": "Liam Pretorius",
+      "role": "student",
+      "residence": "Kingsway House",
+      "room": "C007"
+    },
+    {
+      "email": "n.dlamini@admin.resolve.ac",
+      "password": "admin123",
+      "name": "Nomsa Dlamini",
+      "role": "admin",
+      "department": "Maintenance"
+    },
+    {
+      "email": "j.vermeulen@admin.resolve.ac",
+      "password": "admin123",
+      "name": "Johan Vermeulen",
+      "role": "admin",
+      "department": "Residence Management"
+    }
+  ]
+}
