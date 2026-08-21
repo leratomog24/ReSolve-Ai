@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student dashboard — ReSolve</title>
+    <meta
+      name="description"
+      content="Your ReSolve student dashboard: report accommodation issues and track their progress."
+    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="panel">
+        <header class="topbar">
+          <a class="logo" href="index.html"><strong>RE</strong><span>SOLVE</span></a>
+          <button class="btn-outline small" type="button" id="signout-btn">SIGN OUT</button>
+        </header>
+
+        <main class="dash">
+          <p class="role-pill">STUDENT ACCESS</p>
+          <h1 id="welcome">Welcome</h1>
+          <p class="tagline" id="room"></p>
+          <p class="copy" id="residence"></p>
+
+          <div class="tiles">
+            <div class="tile" onclick="window.location.href='Reportissue.html'">  
+              <h3>Report an issue</h3>
+              <p>Wi-Fi, leaks, maintenance, security or damaged facilities.</p>
+            </div>
+            <div class="tile">
+              <h3>Track progress</h3>
+              <p>See whether your report is submitted, assigned, in progress or resolved.</p>
+            </div>
+            <div class="tile">
+              <h3>My reports</h3>
+              <p>A full history of everything you've reported this term.</p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>

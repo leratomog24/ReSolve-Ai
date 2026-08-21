@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin dashboard — ReSolve</title>
+    <meta
+      name="description"
+      content="Your ReSolve admin dashboard: triage, route and resolve student accommodation reports."
+    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="panel">
+        <header class="topbar">
+          <a class="logo" href="index.html"><strong>RE</strong><span>SOLVE</span></a>
+          <button class="btn-outline small" type="button" id="signout-btn">SIGN OUT</button>
+        </header>
+
+        <main class="dash">
+          <p class="role-pill">ADMIN ACCESS</p>
+          <h1 id="welcome">Welcome</h1>
+          <p class="tagline" id="department"></p>
+
+          <div class="tiles">
+            <div class="tile">
+              <h3>Incoming reports</h3>
+              <p>AI-categorised and prioritised by urgency.</p>
+            </div>
+            <div class="tile">
+              <h3>Assign &amp; route</h3>
+              <p>Send reports to the right department and track ownership.</p>
+            </div>
+            <div class="tile">
+              <h3>Pattern alerts</h3>
+              <p>Spot when many students report the same underlying problem.</p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>
