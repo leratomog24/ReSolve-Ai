@@ -1,0 +1,37 @@
+What each part will do
+student/ → Student interface
+Students will be able to:
+
+•	Login 
+•	View dashboard 
+•	Report problems 
+•	Upload images 
+•	View previous reports 
+•	Track report status 
+•	Receive notifications 
+•	Use the AI assistant 
+
+admin/ → Admin/residence management interface
+Admins will be able to:
+
+•	View all reports 
+•	See urgent problems 
+•	Assign reports 
+•	Change report statuses 
+•	View AI insights 
+•	View analytics 
+•	Monitor recurring problems 
+
+models/ → Database structure
+This is where we'll define things such as:
+
+Student
+Admin
+Report
+Department
+Assignment
+Notification
+routes/ → What happens when users interact with the website.
+templates/ → HTML pages.
+static/ → CSS, JavaScript and images.
+.env → Private configuration such as database credentials and eventually AI API credentials.
