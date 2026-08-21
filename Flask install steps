@@ -1,0 +1,39 @@
+Run this on vs code terminal (in your app.py file) to install flask app and follow the structure on Github
+# step 1: Check python version
+python --version
+
+# step 2: Download virtual environment
+python -m venv .venv
+
+# step 3: Activate the virtual environment
+.venv\Scripts\Activate
+
+# Incase of error, run this code
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# after the error bypass, run this:
+.venv\Scripts\Activate
+
+# step 4: Install Flask
+pip install Flask
+
+# step 5: Insall SQL Database
+pip install Flask-SQLAlchemy Flask-Login Flask-WTF python-dotenv
+
+# step 6: Install Requirements
+pip freeze > requirements.txt
+
+# step 7: Run app.py
+app.py
+
+# step 8: Run this code on the app.py file
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Welcome to ResiAI!"
+
+if __name__ == "__main__":
+    app.run(debug=True)
